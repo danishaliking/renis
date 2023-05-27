@@ -1,0 +1,290 @@
+@font-face {
+   font-family: Dosis-Medium;
+   src: url('../fonts/Dosis-Medium.ttf');
+}
+
+@font-face {
+   font-family: Dosis-Regular;
+   src: url('../fonts/Dosis-Regular.ttf');
+}
+
+@font-face {
+   font-family: Dosis-Bold;
+   src: url('../fonts/Dosis-Bold.ttf');
+}
+
+
+body {
+   background-color: #F8F8F8;
+   font-family: Dosis-Regular;
+
+}
+
+/* header */
+.header-top {
+   background-color: #FFF0F0;
+   font-size: 14px;
+   font: normal normal 300 14px/30px Open Sans;
+}
+
+.header-top .container a,
+i {
+   text-decoration: none;
+   color: #333;
+   margin: 7px;
+   font-size: 14px;
+}
+
+.header-top .container p {
+   margin-bottom: 0px;
+   margin: 10px auto;
+}
+
+.header-top .bx-check-double {
+   margin-right: 5px;
+   font-size: 18px;
+}
+
+
+/* header 2 */
+
+/* navbar start */
+
+.header-2 {
+   background-color: #FFFFFF;
+   color: #3A4747;
+   opacity: 1;
+}
+
+.header-2 .navbar .nav-link {
+   font-family: Dosis-Bold;
+   font-size: 22px;
+   color: #3A4747;
+   opacity: 1;
+
+}
+
+.header-2 .navbar .container .navbar-brand {
+   max-width: 100px;
+   height: 60px;
+}
+
+.header-2 .nav {
+   text-align: center;
+}
+
+.header-2 .nav li {
+   margin: 10px auto;
+   padding-left: 20px;
+}
+
+/* navbar end */
+
+/* Carousel  */
+.carousel {
+   background: #F8F8F8;
+   opacity: 1;
+}
+
+.carousel .hero-img {
+   min-height: 100%;
+   background-image: url('../images/main/c-3.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 25px;
+}
+
+.carousel .hero-card {
+   margin-right: -70px;
+}
+
+.carousel span {
+   color: #E96D6D;
+   font: normal normal bold 44px/50px Dosis;
+}
+
+.carousel .para {
+   font: normal normal bold 20px/26px Dosis;
+}
+
+.carousel .card-para {
+   padding: 0px;
+   font: normal normal normal 16px/26px Open Sans;
+}
+
+.carousel .button button {
+   font: normal normal bold 16px/20px Dosis;
+   letter-spacing: 0.8px;
+   color: #FFFFFF;
+   opacity: 1;
+   width: 150px;
+   height: 40px;
+}
+
+/* Carousel end */
+
+/* Material Section */
+h2 {
+   text-align: left;
+   margin-top: 18px;
+   letter-spacing: 1.65px;
+}
+
+.material-section img {
+   max-height: 55px;
+}
+
+/* All cards Apply */
+
+.card {
+   background: #ffffff;
+   border-radius: 33px;
+   opacity: 1;
+   font: normal normal normal 33px/42px Dosis;
+   border: none;
+}
+
+/* close card */
+
+/* Material Section end  */
+
+
+/* cards section Start */
+
+.card-section .container img {
+   max-width: 100%;
+   min-height: 260px;
+   border-radius: 33px;
+}
+
+.card-section .b1 {
+   margin-top: -55px;
+}
+
+.card-section .container h1 {
+   font: normal normal bold 44px/50px Dosis;
+}
+
+.card-section .container h3 {
+   color: #E96D6D;
+   opacity: 1;
+   font-size: 24px;
+   font-family: Dosis-Bold;
+}
+
+.card-section .product-img {
+   min-height: 260px;
+   border-radius: 33px;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.card-section .container span {
+   font-family: sans-serif;
+   font-size: 20px;
+   margin-top: -8px;
+   color: #3A4747;
+   opacity: 1;
+}
+
+.card-section .hero-card1 {
+   margin: 15px 5px;
+}
+
+.card-section .container .line {
+   width: 134px;
+   margin-left: 43%;
+   height: 0px;
+   border-bottom: 3px solid #E96D6D;
+   opacity: 1;
+}
+
+/* Card-section end */
+
+/* footer Start */
+
+.footer-section {
+   background: #FDF0F0 0% 0% no-repeat padding-box;
+   opacity: 1;
+}
+
+.footer-section .ft {
+   margin-left: -31px;
+}
+
+.footer-section .ft-1 {
+   max-width: 137px;
+   margin: 1rem;
+}
+
+.footer-section .ft-2 {
+   max-width: 130px;
+   margin: 1rem;
+}
+
+.footer-section .ft-3 {
+   max-width: 170px;
+   margin: 1rem;
+}
+
+.footer-section .ft-4 {
+   max-width: 176px;
+}
+
+.footer-section h5 {
+   font-size: 22px;
+   font-family: Dosis-Regular;
+}
+
+/* 2nd */
+
+.footer-2 {
+   background-color: #ffffff;
+   margin-top: -24px;
+}
+
+footer ul {
+   list-style-type: none;
+}
+
+footer ul>li a {
+   text-decoration: none;
+   color: #666;
+   padding: 0.3rem;
+}
+
+.footer-2 .border {
+   border: 1px solid rgb(179, 176, 176);
+}
+
+.footer-2 a:hover {
+   color: #8e44ad;
+}
+
+.footer-2 .bold {
+   font-family: Dosis-Bold;
+}
+
+/* Footer End */
+
+@media(max-width:992px) {
+   .header-2 .navbar .nav-link {
+      text-align: center;
+   }
+
+   .carousel .hero-img {
+      min-height: 300px;
+   }
+
+   .carousel .hero-card {
+      margin-right: 0;
+      margin: 15px;
+      margin-top: -35px;
+   }
+}
+
+@media(max-width:576px) {
+   footer {
+      text-align: center;
+   }
+}
